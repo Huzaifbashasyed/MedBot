@@ -1,11 +1,9 @@
-from setuptools import find_packages , setup  # type: ignore
+from setuptools import find_packages, setup
 
 setup(
-    name = 'Generative AI Project',
-    version= '0.0.0',
-    author='Siva kiran',
-    author_email='sivakiran7171@gmail.com',
+    name="medbot",
+    version="0.0.1",
+    author="Huzaif Basha",
     packages=find_packages(),
-    install_requires =[]
+    install_requires=[],
 )
-
